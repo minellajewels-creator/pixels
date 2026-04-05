@@ -10,7 +10,7 @@ import Reels from './pages/Reels'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pixels">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
